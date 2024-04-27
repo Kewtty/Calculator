@@ -34,5 +34,11 @@ public double div (double a, double b){
     c = a/b;
     return c;
 }
-    
+
+public double pot (double a, double b){
+
+    c = Math.pow(a,b);
+    return c;
+}
+
 }
